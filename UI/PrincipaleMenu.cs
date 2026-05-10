@@ -1,6 +1,33 @@
-using CSSharpProjects;
-using Model;
-using Interfaces;
+using (AddTrip addTrip = new AddTrip())
+{
+    
+}
+
+using (AddPointOfInterest addPointOfInterest = new AddPointOfInterest())
+{
+    
+}
+using (AddCars addCars = new AddCars())
+{
+    
+}
+using (CalculateDistance calculateDistance = new CalculateDistance())
+{    
+}
+using (DisplayPoints displayPoints = new DisplayPoints())
+{    
+}
+using (DisplayTrips displayTrips = new DisplayTrips())
+{    
+}
+using (DisplayVehicles displayVehicles = new DisplayVehicles())
+{    
+}
+using (SimulateDriving simulateDriving = new SimulateDriving())
+{    
+} 
+
+
  public class PrincipaleMenu
 {
     private void PrintSeparator() => Console.WriteLine(new string('─', 50));
